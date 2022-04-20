@@ -75,18 +75,18 @@ main {
   height: 100%;
   background: hsl(178deg 100% 50% / 50%);
   border-radius: 10px;
-  display: none;
+  display: flex;
   align-items: center;
   justify-content: center;
-  transition: all ease-in 2s;
+  opacity: 0;
+  transition: all ease-in 0.5s;
 }
 .card .card-img:hover .hover-effect {
-  display: flex;
+  opacity: 1;
 }
 .hover-effect img {
   width: 50px;
   cursor: pointer;
-  transition: all ease 2s;
 }
 
 .card .card-title {
