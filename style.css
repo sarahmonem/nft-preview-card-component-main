@@ -75,13 +75,14 @@ main {
   height: 100%;
   background: hsl(178deg 100% 50% / 50%);
   border-radius: 10px;
-  display: flex;
+  display: none;
   align-items: center;
   justify-content: center;
   opacity: 0;
   transition: all ease-in 0.5s;
 }
 .card .card-img:hover .hover-effect {
+  display: flex;
   opacity: 1;
 }
 .hover-effect img {
